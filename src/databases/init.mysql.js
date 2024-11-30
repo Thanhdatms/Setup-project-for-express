@@ -12,7 +12,7 @@ const initialize = async () => {
       port: port,
     });
     await connection.query(`CREATE DATABASE IF NOT EXISTS \`${database}\`;`);
-    await connection.end(); // Close the connection after database is created
+    await connection.end();
 };
   
 // Call initialize to create the database if it doesn't exist

@@ -17,7 +17,6 @@ const app = express();
 
 // init mysql db
 const { sequelize } = require('./databases/init.mysql')
-
 // app rotes
 
 // app.use('/v1', indexRouter);
